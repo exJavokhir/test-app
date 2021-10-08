@@ -1,0 +1,72 @@
+.navbar{
+    padding: 30px 0;
+    .navbar-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__left{
+            display: flex;
+            align-items: center;
+        }
+
+        .logo{
+            margin-right: 60px;
+            h1{
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #000;
+                font-weight: bold;
+            }
+        }
+
+
+
+        .navbar-links{
+            &__ul{
+                display: flex;
+                align-items: center;
+                &--li{
+                    padding: 0 15px;
+                    display: block;
+                    a{
+                        color: #000;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: 13px;
+                        transition: 0.3s;
+
+                        &:hover {
+                            color: blue;
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbar-auth{
+            &__ul{
+                display: flex;
+                align-items: center;
+                &--li{
+                    padding: 0 10px;
+                    display: block;
+                    a{
+                        color: #000;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: 13px;
+                        transition: 0.3s;
+                        
+                        &:hover{
+                            color: blue;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hamburger-btn{
+            display: none;
+        }
+    }
+}

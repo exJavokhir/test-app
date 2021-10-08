@@ -1,0 +1,71 @@
+@media screen and (max-width: 900px) {
+    .navbar {
+        padding: 20px 0;
+
+        .navbar-inner {
+
+            .logo{
+                margin-right: 0;
+                h1{
+                    font-size: 20px;
+                }
+            }
+
+            .navbar-links {
+                display: none;
+            }
+
+            .navbar-auth {
+                display: none;
+            }
+
+
+            .hamburger-btn{
+                display: block;
+                .humb-btn{
+                    z-index: 2;
+                    position: absolute;
+                    top: 25px;
+                    right: 20px;
+                    span{
+                        z-index: 2;
+                        display: block;
+                        width: 25px;
+                        height: 2px;
+                        background-color: #000;
+                        border-radius: 5px;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                .humb-links{
+                    position: absolute;
+                    width: 100%;
+                    background-color: #fff;
+                    left: 0;
+                    top: 0;
+                    z-index: 1;
+                    padding: 20px;
+                    box-sizing: border-box;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    display: none;
+                    &.active{
+                        display: block;
+                    }
+                    .navbar-links__ul{
+                        flex-direction: column;
+                        display: flex;
+                        margin-top: 20px;
+                        &--li{
+                            margin-bottom: 10px;
+                        }
+                        
+                        a{
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
