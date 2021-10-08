@@ -41,10 +41,10 @@ const Navbar = ({setActive, active})=>{
 
                         <div className={`humb-links ${active ? 'active' : ''}`}>
                             <ul className="navbar-links__ul">
-                                <li className="navbar-links__ul--li"><a href="#home">Home</a></li>
-                                <li className="navbar-links__ul--li"><a href="#intro">Intro</a></li>
-                                <li className="navbar-links__ul--li"><a href="#exper">Expertises</a></li>
-                                <li className="navbar-links__ul--li"><a href="#work">Work</a></li>
+                                <li className="navbar-links__ul--li"><a href="#c">Home</a></li>
+                                <li className="navbar-links__ul--li"><a href="#link">Intro</a></li>
+                                <li className="navbar-links__ul--li"><a href="#link">Expertises</a></li>
+                                <li className="navbar-links__ul--li"><a href="#link">Work</a></li>
                                 <li className="navbar-links__ul--li"><a href="#plans">Plans</a></li>
                                 <li className="navbar-links__ul--li"><a href="#news">News</a></li>
                             </ul>
